@@ -1,5 +1,8 @@
 # 1D Interface
 
+Modified by Daniel Leithinger on 1/30 for GSAPP Physical Computation Course
+
+
 Author: Marcelo Coelho (https://github.com/marcelocoelho)
 Created for MIT 4.043 Design Studio (https://github.com/marcelocoelho/4.043)
 
