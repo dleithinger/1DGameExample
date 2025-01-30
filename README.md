@@ -1,5 +1,8 @@
 # 1D Interface
 
+Author: Marcelo Coelho (https://github.com/marcelocoelho)
+Created for MIT 4.043 Design Studio (https://github.com/marcelocoelho/4.043)
+
 A 1D Interface is a graphical user interface made from a single row of pixels and where it's NOT possible to display symbolic content (e.g. text, icons, etc).
 
 Its simplicity provides a great platform for learning some of the fundamental ideas behind interface design.
