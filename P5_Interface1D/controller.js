@@ -134,3 +134,16 @@ function keyPressed() {
     controller.gameState = "PLAY";
     }
   }
+
+
+
+
+// This function gets called when the mouse is pressed
+function mousePressed() {
+    // When clicking on the 1D bar with the mouse, toggle full-screen mode.
+    if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+      let fs = fullscreen();
+      fullscreen(!fs);
+    }
+  }
+  
