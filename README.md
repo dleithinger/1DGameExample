@@ -1,7 +1,6 @@
 # 1D Interface
 
-Modified by Daniel Leithinger on 1/30 for GSAPP Physical Computation Course
-
+Modified by Daniel Leithinger on 1/30/2025 for GSAPP Physical Computation Course
 
 Author: Marcelo Coelho (https://github.com/marcelocoelho)
 Created for MIT 4.043 Design Studio (https://github.com/marcelocoelho/4.043)
@@ -13,16 +12,15 @@ Its simplicity provides a great platform for learning some of the fundamental id
 # Instructions
 
 1. Download and install Visual Studio Code and install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
-2. Install Chrome
-3. Download this game.
-4. Run it by dragging/dropping the entire folder in Visual Studio Code and clicking on the 'Go Live' button at the bottom right of the screen.
+2. [Download](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github) this game.
+3. Run it by dragging/dropping the entire folder in Visual Studio Code and clicking on the 'Go Live' button at the bottom right of the screen.
+   Alternatively, you can modify the code in your preferred editor and open "index.html" in your browser
 5. Instructions for playing the game:
    - Keyboard keys **A** and **D** move Red Player left and right.
    - Keys **J** and **L** move Blue Player.
    - First player to catch the Yellow Target 3 times wins.
    - Winning color takes over the screen.
    - Press **R** for re-starting the game.
-
 
 
 # Concepts
