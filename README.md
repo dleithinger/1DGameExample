@@ -1,9 +1,7 @@
 # 1D Interface
-
-Modified by Daniel Leithinger on 1/30/2025 for GSAPP Physical Computation Course
-
-Author: Marcelo Coelho (https://github.com/marcelocoelho)
-Created for MIT 4.043 Design Studio (https://github.com/marcelocoelho/4.043)
+Author: [Marcelo Coelho](https://github.com/marcelocoelho)
+Created for [MIT 4.043 Design Studio](https://github.com/marcelocoelho/4.043)
+Adapted by [Daniel Leithinger](http://www.leithinger.com)
 
 A 1D Interface is a graphical user interface made from a single row of pixels and where it's NOT possible to display symbolic content (e.g. text, icons, etc).
 
