@@ -6,7 +6,7 @@ Arduino is the microcontroller platform you will use to create your joystick. Yo
 
 ## 2. Program Arduino
 
-We are using a clone of the Arduino Pro Micro (https://www.sparkfun.com/products/12640). Plug your Arduino into your computer and you should see a small red LED for power. If you don't, it could be because your Arduino is not properly connected to your computer (it does not work with a usb-c only cable) or your computer might be having some driver issues recognizing the board.
+We are using either the [Arduino Leonardo](https://www.instructables.com/Step-by-Step-Guide-to-the-Arduino-Leonardo/), or the [Arduino Pro Micro](https://www.sparkfun.com/products/12640). Plug your Arduino into your computer and you should see a small LED on the board turn on to indicate that it is powered. If you don't, it could be because your Arduino is not properly connected to your computer. If you have the usb-c version, note that the board does not work with a usb-c to usb-c only cable. You need to use a usb-c - usb-a cable with an adapter to power it correctly. A long explanation why can be found [in this discussion thread](https://arduino.stackexchange.com/questions/89647/usb-c-to-usb-c-cable-arduino-is-not-responding-even-not-powered-by-this-cable). Also check your computer for any possible driver driver issues recognizing the board.
 
 Now let's make sure you can program your board.
 
@@ -28,7 +28,7 @@ Click the Upload arrow. And you should get a **Done Uploading** message.
 
 Because the keyboard functionality uses the serial port, which is also how we program the Arduino, you might get into a situation where the serial port is outputting numbers and doesn't let you reprogram the Arduino.
 
-If this happens, connect a wire from the **RST (reset)** pin to ground. Then start upload and disconnect the reset wire. You might need to do this a few times to get the timing right.
+If this happens, press the reset button (Arduino Leonardo) connect a wire from the **RST (reset)** pin to ground (Arduino Micro Pro). Then start upload and disconnect the reset wire. You might need to do this a few times to get the timing right.
 
 **The Short Story: when using a Leonardo, only have it output serial commands once the user does something like press a button. If you have it output all the time by default, you will get into this situation.**
 
@@ -37,7 +37,7 @@ If this happens, connect a wire from the **RST (reset)** pin to ground. Then sta
 Follow this example to add a button and control a connected LED. Make sure that you change pin numbers to reflect the pins you are connecting things to:
 
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
-
+If you don't have a resistor handy, look into the internal pullup of the Arduino.
 
 ## 4. Run A_Controller
 
