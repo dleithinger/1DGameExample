@@ -37,7 +37,7 @@ If this happens, press the reset button (Arduino Leonardo) connect a wire from t
 Follow this example to add a button and control a connected LED. Make sure that you change pin numbers to reflect the pins you are connecting things to:
 
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
-If you don't have a resistor handy, look into the internal pullup of the Arduino.
+If you don't have a resistor handy, look into the [internal pullup](https://docs.arduino.cc/tutorials/generic/digital-input-pullup/) of the Arduino.
 
 ## 4. Run A_Controller
 
